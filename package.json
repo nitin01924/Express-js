@@ -1,7 +1,25 @@
 {
+  "name": "express",
+  "version": "1.0.1",
+  "description": "",
+  "homepage": "https://github.com/nitin01924/Express.js#readme",
+  "bugs": {
+    "url": "https://github.com/nitin01924/Express.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitin01924/Express.js.git"
+  },
+  "license": "ISC",
+  "author": "Nitin01924",
   "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "express": "^5.2.1",
     "nodemon": "^3.1.11"
-  }
+  },
+  "devDependencies": {}
 }

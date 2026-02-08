@@ -34,6 +34,12 @@ app.delete("/users/:id", (req, res) => {
     leftuser: users,
   });
 });
+app.get("/users/:id", (req, res) => {
+  res.status(200).json({
+    message: "users left",
+    leftuser: users,
+  });
+});
 
 // LISTNING APP
 app.listen(PORT, () => {

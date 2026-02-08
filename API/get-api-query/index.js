@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
   res.send("Welcome to the HOME-PAGE.");
 });
 
-app.get("/users", (req, res) => {
+app.get("/products", (req, res) => {
   const products = [
     { Brand: "MSI", Price: 98000 },
     { Brand: "Macbook M2", Price: 70000 },
